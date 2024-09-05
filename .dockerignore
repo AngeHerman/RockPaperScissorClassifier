@@ -1,0 +1,21 @@
+# Ignorer les fichiers de configuration locaux
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers de cache
+__pycache__/
+.docker/
+Dockerfile
+docker-compose.yml
+.env
+
+# Ignorer les répertoires de dépendances locales
+venv/
+*.git/
+
+# Mes dossiers
+test/
+README.md
+images/
+model/

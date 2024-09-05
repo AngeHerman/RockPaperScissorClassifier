@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
+import os
 
 model = load_model('rps.h5')
 
@@ -40,9 +41,11 @@ def predict():
 
         class_names = ['Paper', 'Rock', 'Scissor']
         predicted_class = class_names[np.argmax(classes)]
-
+        os.remove(file_path)
+        
         return jsonify({'prediction': predicted_class})
 
 # start Flask app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    # app.run()

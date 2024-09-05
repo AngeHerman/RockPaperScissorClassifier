@@ -4,6 +4,8 @@ scipy
 keras-preprocessing
 Flask
 gunicorn
+Pillow
+
 
 
 
