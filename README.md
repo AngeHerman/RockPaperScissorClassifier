@@ -58,7 +58,7 @@ file: L'image à classer (format .jpg, .png, etc.)
 }
 ```
 
-## Exemples d'images que ça peut reconnaître
+## Exemples d'images que le modèle peut reconnaître
 
 ![rock](images/from_training/rock.png)
 <img src="images/not_from_training/ciseau.jpg" alt="Ciseau" width="300" height="300">
