@@ -6,7 +6,7 @@ Un classificateur d'images qui permet de distinguer les gestes de mains en forme
 
 ## Lien de l'API
 
-[API Predict](https://image-classifier-563965826134.europe-west9.run.app)
+[https://image-classifier-563965826134.europe-west9.run.app](https://image-classifier-563965826134.europe-west9.run.app)
 
 ## Prérequis
 
